@@ -4,8 +4,10 @@ module.exports = {
   theme: {
     fontFamily: {
       sans: ['Mulish', 'sans-serif'],
-      mono: ['Rokkitt', 'monospace']
+      mono: ['Rokkitt', 'monospace'],
+      NFTfont: ['Outfit'];
     },
+    
     extend: {},
   },
   plugins: [],

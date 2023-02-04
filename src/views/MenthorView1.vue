@@ -1,5 +1,7 @@
 <template>
-  <NFTComponent></NFTComponent>
+  <div>
+    <NFTComponent></NFTComponent>
+  </div>
 </template>
 
 <script>
