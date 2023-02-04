@@ -5,7 +5,7 @@ module.exports = {
     fontFamily: {
       sans: ['Mulish', 'sans-serif'],
       mono: ['Rokkitt', 'monospace'],
-      NFTfont: ['Outfit'];
+      NFTfont: ['Outfit'],
     },
     
     extend: {},
