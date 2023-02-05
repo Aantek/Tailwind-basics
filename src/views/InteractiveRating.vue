@@ -12,11 +12,11 @@
                 <p class="text-normal text-gray-300 font-bold bg-[#3a4147] p-3 pt-0 font-sans">Please let us know how we did with your support request. All feeback is appreciated to help us improve our offering!</p>
             </div>
             <div class="bg-[#3a4147] my-1 w-full flex justify-between place-items-center px-2">
-                <button class="text-gray-300 bg-gray-500 hover:bg-gray-800 active:bg-gray-800 focus:outline-none focus:ring focus:bg-black rounded-full px-3 py-1" @click="rating = 1" :class="{ 'active': rating == 1 }">1</button>
-                <button class="text-gray-300 bg-gray-500 rounded-full px-3 py-1 hover:bg-gray-800 active:bg-gray-800 focus:outline-none focus:ring focus:bg-black" @click="rating = 2" :class="{ 'active': rating == 2 }">2</button>
-                <button class="text-gray-300 bg-gray-500 rounded-full px-3 py-1 hover:bg-gray-800 active:bg-gray-800 focus:outline-none focus:ring focus:bg-black" @click="rating = 3" :class="{ 'active': rating == 3 }">3</button>
-                <button class="text-gray-300 bg-gray-500 rounded-full px-3 py-1 hover:bg-gray-800 active:bg-gray-800 focus:outline-none focus:ring focus:bg-black" @click="rating = 4" :class="{ 'active': rating == 4 }">4</button>
-                <button class="text-gray-300 bg-gray-500 rounded-full px-3 py-1 hover:bg-gray-800 active:bg-gray-800 focus:outline-none focus:ring focus:bg-black" @click="rating = 5" :class="{ 'active': rating == 5 }">5</button>
+                <button class="text-gray-300 bg-gray-500 hover:bg-gray-800 active:bg-gray-800 focus:outline-none focus:ring focus:bg-black rounded-full px-3 py-1" @click="rating = 1">1</button>
+                <button class="text-gray-300 bg-gray-500 rounded-full px-3 py-1 hover:bg-gray-800 active:bg-gray-800 focus:outline-none focus:ring focus:bg-black" @click="rating = 2" >2</button>
+                <button class="text-gray-300 bg-gray-500 rounded-full px-3 py-1 hover:bg-gray-800 active:bg-gray-800 focus:outline-none focus:ring focus:bg-black" @click="rating = 3">3</button>
+                <button class="text-gray-300 bg-gray-500 rounded-full px-3 py-1 hover:bg-gray-800 active:bg-gray-800 focus:outline-none focus:ring focus:bg-black" @click="rating = 4">4</button>
+                <button class="text-gray-300 bg-gray-500 rounded-full px-3 py-1 hover:bg-gray-800 active:bg-gray-800 focus:outline-none focus:ring focus:bg-black" @click="rating = 5">5</button>
             </div>
      
             <button type="submit" class="bg-orange-500 rounded-xl w-full text-white py-1 my-4 px-2 font-extrabold" @click="ratingSubmit()">Submit</button>
