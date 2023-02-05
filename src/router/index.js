@@ -4,6 +4,7 @@ import ProductView from '../views/ProductView.vue'
 import LoginView from '../views/LoginView.vue'
 import MenthorView1 from '../views/MenthorView1.vue'
 import QRView from '../views/QRView.vue'
+import InteractiveRating from '../views/InteractiveRating.vue'
 const routes = [
   {
     path: '/grid',
@@ -31,6 +32,11 @@ const routes = [
     name: 'QRView',
     component: QRView
   },
+  {
+    path: '/rating',
+    name: 'IneractiveRating',
+    component: InteractiveRating
+  }
   
   
 ]
