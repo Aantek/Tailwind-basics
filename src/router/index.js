@@ -3,6 +3,7 @@ import GridView from '../views/GridView.vue'
 import ProductView from '../views/ProductView.vue'
 import LoginView from '../views/LoginView.vue'
 import MenthorView1 from '../views/MenthorView1.vue'
+import QRView from '../views/QRView.vue'
 const routes = [
   {
     path: '/grid',
@@ -24,7 +25,14 @@ const routes = [
     path: '/menthor1',
     name: 'MenthorView1',
     component: MenthorView1
-  }
+  },
+  {
+    path: '/qr',
+    name: 'QRView',
+    component: QRView
+  },
+  
+  
 ]
 
 const router = createRouter({

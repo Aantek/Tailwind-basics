@@ -8,7 +8,7 @@
 import NFTComponent from '@/components/NFTComponent.vue'
 export default {
   components: { NFTComponent },
-
+  
 }
 </script>
 
