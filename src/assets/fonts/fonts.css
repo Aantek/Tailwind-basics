@@ -1,0 +1,9 @@
+
+
+@font-face {
+    font-family: 'HankenGrotesk'; /* You can choose any name for your font */
+    src: url('C:\Users\Antoni\Documents\GitHub\Tailwind-basics\src\assets\fonts\HankenGrotesk-VariableFont_wght.ttf') format('ttf');
+    /* Add additional src declarations for different font formats if needed */
+    font-weight: normal;
+    font-style: normal;
+  }
